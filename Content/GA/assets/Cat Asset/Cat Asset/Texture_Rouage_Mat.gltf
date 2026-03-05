@@ -1,0 +1,151 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.6.1"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 2394,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 844,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -0.400000244, 0.00562380068, -0.39999789 ],
+			"max": [ 0.399999738, 0.3056238, 0.400002122 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 844,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 844,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 844,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "Texture_Rouage_Mat.bin",
+			"byteLength": 45300
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 4788,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10128,
+			"byteOffset": 4788,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10128,
+			"byteOffset": 14916,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13504,
+			"byteOffset": 25044,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6752,
+			"byteOffset": 38548,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "Texture_Rouage.png"
+		},
+		{
+			"uri": "Normal_Rouage.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "Texture_Rouage_Mat",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicFactor": 10,
+				"roughnessFactor": 0.5
+			},
+			"normalTexture":
+			{
+				"index": 1
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Rouage_LD_GymRoom",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "Texture_Rouage",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "Normal_Rouage",
+			"sampler": 0,
+			"source": 1
+		}
+	]
+}
